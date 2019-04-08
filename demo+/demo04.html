@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="script/jquery.js"></script>
+	<style>
+		span{
+			color:red;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+    <input class="text" type="text" placeholder="添加水果名字">
+    <button class="btn">添加</button>
+	<ul class="list">
+		<li>香蕉 <span class="del">删除</span></li>
+		<li>苹果 <span class="del">删除</span></li>
+		<li>鸭梨 <span class="del">删除</span></li>
+	</ul>
+	<script>
+        $(".btn").click(function(){
+            var text = $(".text").val();
+            var $li = $("<li>");
+            $li.append(text);
+            var $del = $("<span class='del'> 删除</span>")
+            $li.append($del);
+            $(".list").append($li);
+        })
+        $(".list").delegate(".del","click",function(){
+            $(this).parent().remove();
+        })
+    </script>
+</body>
+</html>

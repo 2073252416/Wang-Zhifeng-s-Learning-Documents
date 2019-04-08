@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>第九题</title>
+
+<body>
+    <h1 id="box"></h1>
+    <div id="btn" onclick="doit()">开始点名</div>
+</body>
+<script>
+    let box = document.getElementById("box");
+    let btn = document.getElementById("btn");
+    let timmer;
+    let nameList = ["王芷烽","贾海港","马瑞阳"]
+    
+    function show (){
+        let num = Math.floor(Math.random() * nameList.length);
+        box.innerHTML = nameList[num];
+        timmer = setTimeout(show,1)
+    };
+    function doit (){
+        if(timmer == undefined){
+            show();
+            btn.innerHTML = "停止点名";
+        }else{
+            clearTimeout(timmer);
+            btn.innerHTML = "开始点名";
+            timmer = undefined
+        }
+    }
+    
+</script>
+
+</head>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="script/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{name}}</h1>
+        <button @click="getName">开始点名</button>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                nameList:["王芷烽","贾海港","马瑞阳"],
+                name:"开始点名",
+            },
+            methods:{
+                getName(){
+                    this.name = this.nameList[this.getRodom()]
+                },
+                getRodom(){
+                    return Math.floor(Math.random() * this.nameList.length)
+                }
+            },
+        })
+    </script>
+</body>
+
+</html>

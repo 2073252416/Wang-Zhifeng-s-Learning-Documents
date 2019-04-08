@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>第三题</title>
+    <style>
+    </style>
+</head>
+<body>
+<div class="time">
+    <span>距离目标时间还有：</span>
+    <span id="showInterval"></span>
+</div>
+<script>
+    function gettime (time,showInterval){
+        let endtime = new Date(Date.parse(time.replace(/-/,"/")));
+        let addtime = new Date();
+        let di = endtime.getTime() - addtime.getTime();
+        let day = 0;
+        let hours = 0;
+        let minutes = 0;
+        let seconds = 0;
+
+        if(di >= 0){
+            day = Math.floor(di/1000/60/60/24);
+            hours = Math.floor(di/1000/60/60%24);
+            minutes = Math.floor(di/1000/60%60);
+            secnods = Math.floor(di/1000%60);
+        }
+        document.getElementById(showInterval).innerHTML = day + "天" + hours + "时" + minutes + "分" + secnods + "秒";
+    }
+    setInterval(function(){gettime("2019-06-06 12:00:00","showInterval")},0)
+</script>
+
+</body>
+</html>
