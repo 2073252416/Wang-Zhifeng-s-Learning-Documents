@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="script/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <button v-on:click="btn1">+</button>
+    <span>{{msg}}</span>
+    <button v-on:click="btn2">-</button>
+  </div>
+  <script>
+    new Vue({
+      el:"#app",
+      data:{
+        msg:"99"
+      },
+      methods:{
+        btn1:function(){
+          this.msg++
+        },
+        btn2:function(){
+          this.msg--
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
