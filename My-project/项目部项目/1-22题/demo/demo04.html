@@ -20,17 +20,17 @@
 		<li>鸭梨 <span class="del">删除</span></li>
 	</ul>
 	<script>
-        $(".btn").click(function(){
-            var text = $(".text").val();
-            var $li = $("<li>");
-            $li.append(text);
-            var $del = $("<span class='del'> 删除</span>")
-            $li.append($del);
-            $(".list").append($li);
-        })
-        $(".list").delegate(".del","click",function(){
-            $(this).parent().remove();
-        })
+		$(".btn").click(function(){
+			let text = $(".text").val();
+			let $li = $("<li>");
+				$li.append(text);
+				let $del = $("<span class='del'> 删除</span>");
+				$li.append($del);
+				$(".list").append($li);
+		})
+		$(".list").delegate(".del","click",function(){
+			$(this).parent().remove()
+		})
     </script>
 </body>
 </html>
