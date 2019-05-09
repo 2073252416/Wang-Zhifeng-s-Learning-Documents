@@ -1,0 +1,126 @@
+.page-content{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.whole{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 3.7rem;
+    background-color: #f5f5f7;
+}
+.header_logo{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-top: -0.44rem;
+    margin-left: 2.34rem;
+}
+.content{
+    width: 100%;
+    height: 7.67rem;
+    background-color: #f5f5f7;
+}
+.content_input{
+    width: 100%;
+    height: 0.91rem;
+    border-top: 0.01rem solid #e5e5e5;
+    border-bottom: 0.01rem solid #e5e5e5;
+}
+.content_input_left{
+    width: 1.5rem;
+    height: 0.9rem;
+    background-color: #ffffff;
+    float: left;
+}
+.content_input_left_text{
+    font-size: 0.27rem;
+    margin-left: 0.46rem;
+    margin-top: 0.24rem;
+    color: #000000;
+}
+.content_input_right{
+    width: 4.9rem;
+    height: 0.9rem;
+    float: left;
+}
+.content_input_right_input{
+    width: 100%;
+    height: 100%;
+    float: left;
+    font-size: 0.27rem;
+    border: none;
+    outline: 0;
+}
+.content_input_right_input::-webkit-input-placeholder {
+     color: rgb(148, 148, 148);
+}
+.content_btn{
+    width: 5.9rem;
+    height: 0.8rem;
+    margin-top: 0.60rem;
+    font-size: 0.27rem;
+    background-color: #0090ff;
+    border: none;
+    color: white;
+    margin-left: 0.25rem
+}
+.content_input_publiclink{
+    text-decoration: none;
+}
+.content_input_publiclink_register{
+    font-size: 0.27rem;
+    margin-top: 0.52rem;
+    float: left;
+    margin-left: 0.30rem;
+    color: #808082;
+}
+.content_input_publiclink_password{
+    font-size: 0.27rem;
+    margin-top: 0.52rem;
+    float:right;
+    margin-right: 0.30rem;
+    color: #808082;
+}
+.header_statusbar{
+    background-color: #0f0f0f;
+    width: 100%;
+    margin-bottom: 0.95rem;
+}
+#user{
+font-size: 0.21rem;
+    position: fixed;
+    top: 4.36rem;
+    left: 4.05rem;
+    overflow-y: auto;
+    color: red;
+}
+#user2{
+    font-size: 0.21rem;
+    position: fixed;
+    right: 0;
+    top: 4.36rem;
+    overflow-y: auto;
+    color: red;
+}
+#pass2{
+    font-size: 0.21rem;
+    position: fixed;
+    top: 5.26rem;
+    left: 4.16rem;
+    overflow-y: auto;
+    color: red;
+}
+#pass{
+    font-size: 0.21rem;
+    position: fixed;
+    top: 5.26rem;
+    left: 5.55rem;
+    overflow-y: auto;
+    color: red;
+}

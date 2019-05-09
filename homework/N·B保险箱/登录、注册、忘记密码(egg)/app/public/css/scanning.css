@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#whole{
+    width: 100%;
+    height: 100%;
+}
+/* 状态栏样式 */
+.status_bar_img{
+    width: 100%;
+    position: absolute;
+}
+/* 表头盒子 */
+#Boyder{
+    width: 100%;
+    height: 1rem;
+    background-color: #17181a;
+    text-align: center;
+    line-height: 0.9rem;
+}
+/* 添加保险箱字体样式 */
+.Add_to_style{
+    color: white;
+    font-size: 0.31rem;
+    position: absolute;
+    top: 0.25rem;
+    left: 2.45rem
+}
+/* 保险箱LOGO样式 */
+.logo_img{
+    width:40%;
+    height: 2.44rem;
+    margin-left:2rem;
+    position: absolute;
+    margin-top: 1.77rem;
+}
+/* 添加保险箱字体样式 */
+.add_style{
+    font-size: 0.44rem;
+    margin-left:2.25rem;
+    position: absolute;
+    margin-top: 4.5rem;
+}
+/* 扫一扫添加保险箱字体样式 */
+.scan_style{
+    color: #999999;
+    font-size: 0.3rem;
+    margin-left:0.6rem;
+    position: absolute;
+    margin-top: 5.2rem;
+}
+/* 小盒子 */
+#big{
+    width: 2.5rem;
+    margin-left: 2.1rem;
+    position: absolute;
+    top: 9rem;
+}
+/* 扫描二维码添加样式 */
+.scanning_style{
+    text-decoration: none;
+    font-size: 0.34rem;
+    color: #0091ff;
+}

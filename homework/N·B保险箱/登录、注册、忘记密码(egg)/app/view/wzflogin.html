@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- url里面加跳转的路径 -->
+    <title>登录</title>
+    <link rel="stylesheet" href="/public/css/login.css">
+    <script src="/public/js/fontsizeset.js"></script>
+        <script src="../public/js/wzf_login.js"></script>
+</head>
+<body>
+          <div class="page-content">
+        <div class="header">
+            <img class="header_statusbar" src="../public/images/状态栏.png" alt="">
+            <img class="header_logo" src="../public/images/ico.png" alt="">
+        </div>
+        <div class="content">
+            <div class="content">
+                <form action="/ok" method="get" onsubmit="return checkForm()">
+                    <div class="content_input">
+                        <div class="content_input_left">
+                            <p class="content_input_left_text" id="usertext">用户名</p>
+                        </div>
+                        <div class="content_input_right">
+                            <input class="content_input_right_input" type="text" placeholder="请输入用户名" id="username"><span id="user2"></span>
+                        </div>
+                    </div>
+                    <div class="content_input2">
+                            <div class="content_input_left">
+                                <p class="content_input_left_text" id="passtext">密码</p>
+                            </div>
+                            <div class="content_input_right">
+                                <input class="content_input_right_input" type="text" placeholder="请输入密码" id="passwd">
+                                <span id="pass"></span>
+                                <span id="pass2"></span>
+                            </div>
+                        </div>  
+                    <input class="content_btn" type="submit" value="登录">
+                </form>
+                    <a href="/ragister"><p class="content_input_publiclink_register">注册用户</p></a>
+                    <a href="/password"><p class="content_input_publiclink_password">忘记密码</p></a>
+            </div>
+        </div>
+        </div>
+</body>
+</html>

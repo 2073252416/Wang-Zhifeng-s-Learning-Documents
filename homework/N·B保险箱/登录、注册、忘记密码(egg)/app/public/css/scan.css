@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 大盒子 */
+#big{
+    width: 100%;
+    height: 100%;
+}
+/* 状态栏盒子样式 */
+#Header_two{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    margin: 0 auto;
+}
+/* 状态栏样式 */
+.Header_two_img_style{
+    width: 100%;
+    position: absolute;
+    margin-top:0.1rem;
+}
+/* 返回栏盒子样式 */
+#Bodyer_two{
+    width: 100%;
+    height: 0.6rem;
+    background-color: black;
+}
+/* 返回箭头样式 */
+.Bodyer_two_img_style{
+    width: 0.2rem;
+    position: absolute;
+    margin-top:0.11rem;
+    margin-left: 0.1rem;
+}
+/* 扫一扫字体样式 */
+.scan_one_scan_style{
+    color: white;
+    font-size: 0.29rem;
+    margin-left:2.8rem;
+    position: absolute;
+    margin-top: 0.13rem;
+}
+/* 扫描盒子 */
+#Footer_two{
+    width: 7.5;
+    height:9rem;
+}
+/* 扫描背景 */
+.Footer_two_scanning_style{
+    position: absolute;
+    width: 100%;
+    height:90%;
+}

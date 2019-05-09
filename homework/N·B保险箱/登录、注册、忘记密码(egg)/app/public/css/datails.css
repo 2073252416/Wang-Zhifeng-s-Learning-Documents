@@ -1,0 +1,95 @@
+.page-content{
+    width: 7.5rem;
+    height: 13.34rem;
+}
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.whole{
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.header{
+    width: 7.5rem;
+    height: 3.6rem;
+    background-color: #f5f5f7;
+}
+.header_logo{
+    width:1.8rem;
+    height:1.8rem;
+    margin-top: -0.2rem;
+    margin-left: 2.36rem;
+}
+.content{
+    width: 7.5rem;
+    height: 9.04rem;
+    background-color: #f5f5f7;
+}
+.content_input{
+    width: 7.50rem;
+    height: 0.9rem;
+    border-top: 1rem solid #e5e5e5;
+    border-bottom: 1rem solid #e5e5e5;
+}
+.content_input_left{
+    width: 1.73rem;
+    height: 0.90rem;
+    background-color: #ffffff;
+    float: left;
+}
+.content_input_left_text{
+    font-size: 0.31rem;
+    margin-left: 0.46rem;
+    margin-top: 0.24rem;
+    color: #000000;
+}
+.content_input_right{
+    width: 5.77rem;
+    height: 0.90rem;
+    float: left;
+}
+.content_input_right_input{
+    width: 5.77rem;
+    height: 0.90rem;
+    float: left;
+    font-size: 0.31rem;
+    border: none;
+    outline: 0;
+}
+.content_input_right_input::-webkit-input-placeholder {
+     color: rgb(148, 148, 148);
+}
+.content_btn{
+    margin-left: 0.30rem;
+    width: 6.90rem;
+    height: 0.98rem;
+    margin-top: 0.60rem;
+    font-size: 0.31rem;
+    background-color: #0090ff;
+    border: none;
+    color: white;
+    border-radius: 0.05rem;
+}
+.content_input_publiclink{
+    text-decoration: none;
+}
+.content_input_publiclink_register{
+    font-size: 0.31rem;
+    margin-top: 0.52rem;
+    float: left;
+    margin-left: 0.30rem;
+    color: #808082;
+}
+.content_input_publiclink_password{
+    font-size: 0.31rem;
+    margin-top: 0.52rem;
+    float:right;
+    margin-right: 0.30rem;
+    color: #808082;
+}
+.header_statusbar{
+    background-color: #0f0f0f;
+    width: 100%;
+    margin-bottom: 0.95rem;
+}
