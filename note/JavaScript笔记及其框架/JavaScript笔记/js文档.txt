@@ -1,0 +1,25 @@
+事件相应:
+
+	鼠标单击事件: onclick="demo()";
+
+	鼠标经过事件: onmouseover="demo()";
+
+	鼠标移开事件: onmouseout="demo()";
+
+	光标聚焦事件: onfocus="demo()";
+
+	失焦事件: onblur="demo()";
+
+	内容选中事件: onselect="demo()";
+
+	文本框内容改变事件: onchange="demo()";
+
+	加载事件: onload="demo()";
+
+	卸载事件: onunload="demo()";
+
+函数:
+	parseInt()可以解析一个字符串，并返回一个整数
+
+
+	
